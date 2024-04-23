@@ -46,6 +46,31 @@ MonoBehaviour:
   m_SampleCount:
     m_OverrideState: 1
     m_Value: 8
+--- !u!114 &-1707674559976155166
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7ff42a8c5be6646ad3975f3a54c1eb, type: 3}
+  m_Name: DiffusionProfileList
+  m_EditorClassIdentifier: 
+  active: 1
+  diffusionProfiles:
+    m_OverrideState: 1
+    m_Value:
+    - {fileID: 11400000, guid: cbe1ee9036c47b84ba1b8b3dbcde2aff, type: 2}
+    - {fileID: 11400000, guid: 2a1b7187ff484ca49959d4b2a53cbe8f, type: 2}
+    - {fileID: 11400000, guid: 578e14a174424a64f901ea91cbdf10e3, type: 2}
+    - {fileID: 11400000, guid: d70a4a3f7cca7914299c768fe225c1a6, type: 2}
+    - {fileID: 11400000, guid: fa0bd868de6beb242b58530817c2fa99, type: 2}
+    - {fileID: 11400000, guid: a6e49c92568d36640bf75bae8006ad8f, type: 2}
+    - {fileID: 11400000, guid: 6e1a48f5bc9e7a94b9d007084193aace, type: 2}
+    - {fileID: 11400000, guid: 13713b45b71602b4aa14178bc2aaf1c4, type: 2}
+    - {fileID: 11400000, guid: da8c49ed7c914a14a9030580f704c8db, type: 2}
 --- !u!114 &-1016694868962581565
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -116,7 +141,7 @@ MonoBehaviour:
   - {fileID: 5315503232242033309}
   - {fileID: 1932259527246508038}
   - {fileID: -7089757308646879465}
-  - {fileID: 7745854987130559707}
+  - {fileID: -1707674559976155166}
 --- !u!114 &448115243408767295
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -660,28 +685,3 @@ MonoBehaviour:
   cascadeShadowBorder3:
     m_OverrideState: 0
     m_Value: 0
---- !u!114 &7745854987130559707
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a7ff42a8c5be6646ad3975f3a54c1eb, type: 3}
-  m_Name: DiffusionProfileList
-  m_EditorClassIdentifier: 
-  active: 1
-  diffusionProfiles:
-    m_OverrideState: 1
-    m_Value:
-    - {fileID: 11400000, guid: da8c49ed7c914a14a9030580f704c8db, type: 2}
-    - {fileID: 11400000, guid: 13713b45b71602b4aa14178bc2aaf1c4, type: 2}
-    - {fileID: 11400000, guid: cbe1ee9036c47b84ba1b8b3dbcde2aff, type: 2}
-    - {fileID: 11400000, guid: 2a1b7187ff484ca49959d4b2a53cbe8f, type: 2}
-    - {fileID: 11400000, guid: 578e14a174424a64f901ea91cbdf10e3, type: 2}
-    - {fileID: 11400000, guid: d70a4a3f7cca7914299c768fe225c1a6, type: 2}
-    - {fileID: 11400000, guid: fa0bd868de6beb242b58530817c2fa99, type: 2}
-    - {fileID: 11400000, guid: a6e49c92568d36640bf75bae8006ad8f, type: 2}
-    - {fileID: 11400000, guid: 6e1a48f5bc9e7a94b9d007084193aace, type: 2}

@@ -263,7 +263,6 @@ Material:
     - _NormalMapSpace: 0
     - _NormalScale: 3.46
     - _ObjectSpaceUVMapping: 0
-    - _ObjectSpaceUVMappingEmissive: 0
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _PPDLodThreshold: 5
@@ -309,9 +308,7 @@ Material:
     - _TessellationFactorMinDistance: 20
     - _TessellationFactorTriangleSize: 100
     - _TessellationMode: 0
-    - _TessellationObjectScale: 1
     - _TessellationShapeFactor: 0.75
-    - _TessellationTilingScale: 1
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
